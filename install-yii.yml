@@ -1,0 +1,8 @@
+---
+- hosts: yii
+  vars:
+    username: 'admin'
+    password: 'admin'
+    domain: 'yii_2.dev'
+  roles:
+    - yii

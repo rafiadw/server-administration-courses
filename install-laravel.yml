@@ -1,0 +1,9 @@
+---
+- hosts: laravel
+  vars:
+    username: 'admin'
+    password: 'admin'
+    domain: 'laravel_2.dev'
+  roles:
+    - php
+    - lv

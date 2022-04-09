@@ -1,0 +1,25 @@
+[php5]
+lxc_php5_1 ansible_host=lxc_php5_1.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php5_1 ansible_host=lxc_php5_2.dev ansible_ssh_user=root ansible_become_pass=1
+
+[wordpress]
+#lxc_php7_1 ansible_host=wordpress.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_2 ansible_host=wordpress_1.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_4 ansible_host=wordpress_2.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_6 ansible_host=wordpress_3.dev ansible_ssh_user=root ansible_become_pass=1
+
+[yii]
+#lxc_php7_1 ansible_host=yii.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_2 ansible_host=yii_1.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_4 ansible_host=yii_2.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_5 ansible_host=yii_3.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_6 ansible_host=yii_4.dev ansible_ssh_user=root ansible_become_pass=1
+
+[laravel]
+#lxc_php7_2 ansible_host=laravel.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_3 ansible_host=laravel_1.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_4 ansible_host=laravel_2.dev ansible_ssh_user=root ansible_become_pass=1
+#lxc_php7_5 ansible_host=laravel_3.dev ansible_ssh_user=root ansible_become_pass=1
+
+[database]
+lxc_db_server ansible_host=lxc_mariadb.dev ansible_ssh_user=root ansible_become_pass=1
